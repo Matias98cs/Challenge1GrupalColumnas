@@ -1,0 +1,62 @@
+:root{
+    --FondoCol1: hsl(31, 77%, 52%) ;
+    --FondoCol2: hsl(184, 100%, 22%);
+    --FondoCol3: hsl(179, 100%, 13%);
+}
+@import url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
+.ContenedorDeColumnas{
+    text-align: center;
+    margin-top: 10%;
+
+
+}
+.Contenedortodo{
+    text-align: center;
+    display: inline-block;
+
+}
+.GridColumnas{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.col{
+    height: 100%;
+}
+.col-1{
+    background-color: var(--FondoCol1) ;
+    border-radius: 10px 0px 0px 10px ;
+}
+.col-2{
+    background-color: var(--FondoCol2) ;
+}
+.col-3{
+    background-color: var(--FondoCol3) ;
+    border-radius: 0px 10px 10px 0px ;
+}
+
+.ContenedorContenidosCol{
+margin: 70px;
+
+}
+.ContenedorBotonCol{
+    margin-top: 90px;
+}
+.BotonCol{
+    background-color: white;
+    border-radius: 30px;
+    color: var(--FondoCol1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+}
+
+.ParrafoCol3{
+    color: white;
+    font-family: Lexend Deca;
+}
