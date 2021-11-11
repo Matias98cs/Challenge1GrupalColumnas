@@ -8,25 +8,19 @@
     --FondoCol3: hsl(179, 100%, 13%);
 }
 
-.ContendorPrincipal{
-    text-align: center;
-    margin-top: 10%;
 
-}
-.EspacioDeTrabajo{
-    text-align: center;
-    display: inline-block;
-}
-.GridColumnas{
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
+.Contenedor-Columnas{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: 200px;
+    margin-right: 180px;
 }
 
 .col{
-    height: 100%;
+    height: 450px;
+    width: 100%;
+
 }
 .col-1{
     background-color: var(--FondoCol1) ;
@@ -40,44 +34,53 @@
     border-radius: 0px 10px 10px 0px ;
 }
 
-.Contenedor-de-columna{
+.Contenidos-Col{
     margin: 70px;
-}
 
-.ContenedorBotonCol{
+}
+.Contenidos-Col-ContenedorBoton{
     margin-top: 90px;
-} 
-.Boton{
+}
+.Contenidos-Col-ContenedorBotonCol_Boton{
     background-color: hsl(0, 0%, 95%);
     border-radius: 30px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 40px;
     padding-right: 40px;
     border: none;
 }
-.btn-1{
+.BTN1{
     color: var(--FondoCol1);
 }
-.btn-2{
+.BTN2{
     color: var(--FondoCol2);
 }
-.btn-3{
+.BTN3{
     color: var(--FondoCol3);
 }
+.Contenidos-Col-ContenedorBotonCol_Boton:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
 
-.Parrafo-Col{
+.Contenidos-Col-ContenedorTitulo_Parrafo{
     color: hsla(0, 0%, 100%, 0.75);
     font-family: "Lexend Deca", sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
 
-.Titulo-Col{
+.Contenidos-Col-ContenedorTitulo_Titulo{
     color: hsla(0, 0%, 100%, 0.75);
     font-family: "Big Shoulders Display";
     font-weight: 700;
 }
+
+
 .attribution {
     position: absolute;
     bottom: 0;
